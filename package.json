@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-dash",
-  "description": "A Dash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-colx",
+  "description": "A COLX blockchain REST and web socket API service for bitcore-node-colx",
   "version": "0.6.0",
-  "repository": "git://github.com/dashevo/insight-api-dash.git",
+  "repository": "git://github.com/deltaengine/insight-api-colx.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api-dash/issues"
+    "url": "https://github.com/deltaengine/insight-api-colx/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api-dash",
+  "homepage": "https://github.com/deltaengine/insight-api-colx",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "colx api",
     "blockchain api",
     "json",
-    "bitcore-dash"
+    "bitcore-colx"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-dash": "^0.15.2",
-    "bitcore-message-dash": "^1.0.9",
+    "bitcore-lib-colx": "github:deltaengine/bitcore-lib-colx",
+    "bitcore-message-colx": "github:deltaengine/bitcore-message-colx",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",

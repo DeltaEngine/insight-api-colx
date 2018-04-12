@@ -261,13 +261,6 @@
     ]
   },
   {
-    "poolName":"DASH.TOP",
-    "url":"http://dash.btc.top/",
-    "searchStrings":[
-      "/DASH.TOP/"
-    ]
-  },
-  {
     "poolName":"beePool.org",
     "url":"http://www.beepool.org/",
     "searchStrings":[
@@ -286,13 +279,6 @@
     "url":"https://github.com/zone117x/node-stratum-pool",
     "searchStrings":[
       "/nodeStratum/"
-    ]
-  },
-  {
-    "poolName":"Stratum Pool",
-    "url":"https://github.com/dashpay/dash-stratum",
-    "searchStrings":[
-      "/stratum/"
     ]
   }
 ]
