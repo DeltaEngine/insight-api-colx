@@ -4,22 +4,6 @@
   <strong>A COLX blockchain REST and WebSocket API Service</strong>
 </div>
 <br />
-<div align="center">
-  <!-- Stability -->
-  <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
-    <img src="https://img.shields.io/badge/stability-stable-green.svg?style=flat-square"
-      alt="API stability" />
-  </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/deltaengine/insight-api-colx">
-    <img src="https://img.shields.io/travis/deltaengine/insight-api-colx/master.svg?style=flat-square" alt="Build Status" />
-  </a>
-  <!-- NPM version -->
-  <a href="https://npmjs.org/package/insight-api-colx">
-    <img src="https://img.shields.io/npm/v/insight-api-colx.svg?style=flat-square" alt="NPM version" />
-  </a>
-</div>
-
 
 This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/deltaengine/insight-ui-colx.
 
@@ -67,7 +51,7 @@ bitcore-node-colx install insight-api-colx
 bitcore-node-colx start
 ```
 
-The API endpoints will be available by default at: `http://localhost:3001/insight-api-colx/`
+The API endpoints will be available by default at: `http://localhost:3001/insight-api-colx/` (usually redirected from http://<insightwebsite>/api)
 
 ### Prerequisites
 
