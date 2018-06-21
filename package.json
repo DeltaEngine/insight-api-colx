@@ -61,7 +61,7 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "colossuscore-lib": "^8.2.6",
+    "bitcore-lib-colx": "github:deltaengine/bitcore-lib-colx",
     "bitcore-message-colx": "github:deltaengine/bitcore-message-colx",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
